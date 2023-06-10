@@ -1,0 +1,22 @@
+{
+  "name": "pso-ann-datapero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Quentin Suire <dev@quentinsuire.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf ./dist && mkdir dist",
+    "prebuild": "yarn clean",
+    "build-html": "marp --allow-local-files presentation.md -o dist/presentation-pso.html",
+    "build-pdf": "marp --allow-local-files presentation.md -o dist/presentation-pso.pdf",
+    "build": "yarn build-html && yarn build-pdf",
+    "dev": "marp --allow-local-files presentation.md -o presentation-pso.html --watch"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.2.2"
+  },
+  "volta": {
+    "node": "18.12.1",
+    "yarn": "1.22.19"
+  }
+}
