@@ -2,8 +2,8 @@
 
 Ce dépôt contient les fichiers de la présentation _"Découverte d'une méthode d'optimisation : Particle Swarm Optimization (PSO)"_.
 
-- [Présentation en HTML](./dist/presentation-pso.html)
-- [Présentation en PDF](./dist/presentation-pso.pdf)
+- [Présentation en HTML](./index.html)
+- [Présentation en PDF](./dist/presentation.pdf)
 
 Cette présentation a été faite pour le meetup [Dat'apéro](https://www.meetup.com/datapero-angers/) lors de la session du 15/12/2022.
 
@@ -11,7 +11,7 @@ Cette présentation a été faite pour le meetup [Dat'apéro](https://www.meetup
 
 ### Commandes
 
-Générer les fichiers de la présentation dans le répertoire [`dist`](./dist/):
+Générer les fichiers de la présentation :
 
 ```
 yarn build
